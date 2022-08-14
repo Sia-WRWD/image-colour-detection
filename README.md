@@ -1,4 +1,4 @@
-    # <u> Image Colour Extraction </u>
+# <u> Image Colour Extraction </u>
 Used for colour extraction from images 
 (currently only 8 colours are available). 
 Possesses the function to determine the 
