@@ -51,8 +51,9 @@ def colour_extraction(settings_values, img_src, colour_choice):
 
         kernel = np.ones((7, 7), np.uint8)
 
-        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
-        mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
+        if img_src != "../selected_pics/daft-punk.png":
+            mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
+            mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
 
         segmented_img = cv2.bitwise_and(img, img, mask=mask)
 
@@ -77,5 +78,3 @@ def colour_extraction(settings_values, img_src, colour_choice):
     esc = cv2.waitKey(0)
     if esc:
         cv2.destroyAllWindows()
-
-
