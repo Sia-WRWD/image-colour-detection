@@ -1,6 +1,6 @@
 # <u> Image Colour Extraction </u>
 Used for colour extraction from images 
-(currently only 8 colours are available). 
+(currently only 10 colours are available). 
 Possesses the function to determine the 
 colour detected and to segment part of 
 the image which the colour is detected.
