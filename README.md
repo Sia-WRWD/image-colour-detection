@@ -11,8 +11,8 @@ the image which the colour is detected.
 
 ## <u> How to Use? </u>
 1. Run the Program.
-2. Will be asked to select the pictures available (1-5)
-3. Select what colour to extract (1-8)
+2. Will be asked to select the pictures available (1-7)
+3. Select what colour to extract (1-10)
 4. To choose a different colour, click on any of the images and click on "0" or "enter" to go back to the colour extraction selection menu.
 
 ## <u> References: </u>
